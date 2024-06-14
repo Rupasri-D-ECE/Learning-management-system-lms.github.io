@@ -1,0 +1,93 @@
+/* src/dashboard.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9e0f7;
+    margin: 20%;
+    padding: 0%;
+    width: 50%;
+    height:50%;
+}
+
+.container {
+    background-color: aqua;
+    max-width: fit-content;
+    
+    height: fit-content;
+}
+
+.header {
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.header button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #0056b3;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.course-card .card-body {
+    padding: 15px;
+}
+
+.course-card h4 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.course-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 15px;
+}
+
+.course-card a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.course-card a:hover {
+    background-color: #0056b3;
+}
